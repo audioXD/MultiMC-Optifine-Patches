@@ -1,0 +1,34 @@
+{
+   "formatVersion": 1,
+
+   "name": "Optifine",
+   "uid": "optifine.OptiFine",
+   "version": "1.9.4_HD_U_B4",
+   "releaseTime": "",
+   "type": "release",
+
+   "requires": [
+      {
+         "uid":"net.minecraft",
+         "equals":"1.9.4"
+      }
+   ],
+
+   "mainClass":"net.minecraft.launchwrapper.Launch",
+   "+libraries": [
+      { "name":"net.minecraft:launchwrapper:1.12" },
+      {
+         "downloads": {
+            "artifact": {
+                "sha1": "3d8cbc19bcad9e9ecc98f607e10f65673a09b482",
+                "size": 1693236,
+                "url": "https://www.dropbox.com/s/dgugrs8dhg66g09/OptiFine_1.9.4_HD_U_B4.jar?dl=1"
+            }
+         },
+         "name":"optifine:OptiFine:1.9.4_HD_U_B4"
+      }
+   ],
+   "+tweakers":[
+      "optifine.OptiFineTweaker"
+   ]
+}
